@@ -1,0 +1,25 @@
+Class:         reco::CaloMuon
+
+Header:        DataFormats/MuonReco/interface/CaloMuon.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:28 2014	mkvomit.py
+
+AccessMethods: reco::CaloMuon
+                    reco::TrackRef  innerTrack()
+                    reco::TrackRef  track()
+                              bool  isEnergyValid()
+                  reco::MuonEnergy  calEnergy()
+                             float  caloCompatibility()
+                              bool  isCaloCompatibilityValid()
+                               int  charge()
+                            double  theta()
+                            double  p()
+                            double  pt()
+                            double  px()
+                            double  py()
+                            double  pz()
+                            double  phi()
+                            double  eta()
+
+DataMembers:   reco::CaloMuon

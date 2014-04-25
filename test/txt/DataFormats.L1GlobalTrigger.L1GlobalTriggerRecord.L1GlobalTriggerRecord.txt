@@ -1,0 +1,17 @@
+Class:         L1GlobalTriggerRecord
+
+Header:        DataFormats/L1GlobalTrigger/interface/L1GlobalTriggerRecord.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:22 2014	mkvomit.py
+
+AccessMethods: L1GlobalTriggerRecord
+                        const bool  decision()
+                const DecisionWord  decisionWord()
+        const TechnicalTriggerWord  technicalTriggerWord()
+                const DecisionWord  decisionWordBeforeMask()
+        const TechnicalTriggerWord  technicalTriggerWordBeforeMask()
+                const unsigned int  gtPrescaleFactorIndexTech()
+                const unsigned int  gtPrescaleFactorIndexAlgo()
+
+DataMembers:   L1GlobalTriggerRecord

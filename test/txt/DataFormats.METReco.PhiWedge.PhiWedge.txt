@@ -1,0 +1,26 @@
+Class:         reco::PhiWedge
+
+Header:        DataFormats/METReco/interface/PhiWedge.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:29 2014	mkvomit.py
+
+AccessMethods: reco::PhiWedge
+                             float  Energy()
+                               int  NumberOfConstituents()
+                               int  iPhi()
+                             float  PhiLow()
+                             float  PhiHigh()
+                             float  MinTime()
+                             float  MaxTime()
+                             float  ZDirectionConfidence()
+                             float  PlusZDirectionConfidence()
+                             float  MinusZDirectionConfidence()
+                             float  PlusZOriginConfidence()
+                             float  MinusZOriginConfidence()
+                               int  OverlappingCSCTracks()
+                               int  OverlappingCSCSegments()
+                               int  OverlappingCSCRecHits()
+                               int  OverlappingCSCHaloTriggers()
+
+DataMembers:   reco::PhiWedge

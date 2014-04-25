@@ -1,0 +1,17 @@
+Class:         LHEEventProduct
+
+Header:        SimDataFormats/GeneratorProducts/interface/LHEEventProduct.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:22 2014	mkvomit.py
+
+AccessMethods: LHEEventProduct
+                            double  originalXWGTUP()
+  const std::vector<gen::WeightsInfo>  weights()
+                const lhef::HEPEUP  hepeup()
+                     gen::PdfInfo*  pdf()
+                       std::size_t  comments_size()
+   LHEEventProduct::const_iterator  begin()
+   LHEEventProduct::const_iterator  end()
+
+DataMembers:   LHEEventProduct

@@ -1,0 +1,13 @@
+Class:         reco::ElectronID
+
+Header:        AnalysisDataFormats/Egamma/interface/ElectronID.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:28 2014	mkvomit.py
+
+AccessMethods: reco::ElectronID
+                              bool  cutBasedDecision()
+                            double  likelihood()
+                            double  neuralNetOutput()
+
+DataMembers:   reco::ElectronID

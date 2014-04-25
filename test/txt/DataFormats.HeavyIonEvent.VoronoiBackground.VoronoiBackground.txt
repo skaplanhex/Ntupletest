@@ -1,0 +1,16 @@
+Class:         reco::VoronoiBackground
+
+Header:        DataFormats/HeavyIonEvent/interface/VoronoiBackground.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:29 2014	mkvomit.py
+
+AccessMethods: reco::VoronoiBackground
+                            double  pt()
+                            double  pt_equalized()
+                            double  pt_subtracted()
+                            double  mt()
+                            double  mt_equalized()
+                            double  mt_initial()
+
+DataMembers:   reco::VoronoiBackground

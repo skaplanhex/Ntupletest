@@ -1,0 +1,16 @@
+Class:         reco::PFNuclearInteraction
+
+Header:        DataFormats/ParticleFlowReco/interface/PFNuclearInteraction.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:29 2014	mkvomit.py
+
+AccessMethods: reco::PFNuclearInteraction
+  const edm::RefToBase<reco::Track>  primaryTrack()
+  edm::RefVectorIterator<std::vector<reco::PFRecTrack>,reco::PFRecTrack,edm::refhelper::FindUsingAdvance<std::vector<reco::PFRecTrack>,reco::PFRecTrack> >  secPFRecTracks_begin()
+  edm::RefVectorIterator<std::vector<reco::PFRecTrack>,reco::PFRecTrack,edm::refhelper::FindUsingAdvance<std::vector<reco::PFRecTrack>,reco::PFRecTrack> >  secPFRecTracks_end()
+                            double  likelihood()
+  const reco::NuclearInteractionRef  nuclInterRef()
+                               int  secondaryTracksSize()
+
+DataMembers:   reco::PFNuclearInteraction

@@ -1,0 +1,14 @@
+Class:         SiPixelCalibDigiError
+
+Header:        DataFormats/SiPixelDigi/interface/SiPixelCalibDigiError.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:23 2014	mkvomit.py
+
+AccessMethods: SiPixelCalibDigiError
+                          uint16_t  getRow()
+                          uint16_t  getCol()
+                          uint16_t  getErrorType()
+                       std::string  printError()
+
+DataMembers:   SiPixelCalibDigiError

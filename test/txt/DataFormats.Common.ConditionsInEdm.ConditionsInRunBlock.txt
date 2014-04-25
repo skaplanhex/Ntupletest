@@ -1,0 +1,17 @@
+Class:         edm::ConditionsInRunBlock
+
+Header:        DataFormats/Common/interface/ConditionsInEdm.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:26 2014	mkvomit.py
+
+AccessMethods: edm::ConditionsInRunBlock
+                              bool  isProductEqual(edm::ConditionsInRunBlock newThing)
+
+DataMembers:   edm::ConditionsInRunBlock
+                unsigned short int  beamMode
+                unsigned short int  beamMomentum
+                      unsigned int  lhcFillNumber
+                             float  BStartCurrent
+                             float  BStopCurrent
+                             float  BAvgCurrent

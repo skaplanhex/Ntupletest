@@ -1,0 +1,11 @@
+Class:         TrackingSeed
+
+Header:        DataFormats/TrackingSeed/interface/TrackingSeed.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:26 2014	mkvomit.py
+
+AccessMethods: TrackingSeed
+                      unsigned int  size()
+
+DataMembers:   TrackingSeed

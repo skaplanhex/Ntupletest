@@ -1,0 +1,26 @@
+Class:         PHcalValidInfoLayer
+
+Header:        SimDataFormats/ValidationFormats/interface/PValidationFormats.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:23 2014	mkvomit.py
+
+AccessMethods: PHcalValidInfoLayer
+                               int  nHit()
+                             float  eho()
+                             float  ehbhe()
+                             float  eebee()
+                             float  elonghf()
+                             float  eshorthf()
+                             float  eecalhf()
+                             float  ehcalhf()
+                std::vector<float>  elayer()
+                std::vector<float>  edepth()
+                std::vector<float>  etaHit()
+                std::vector<float>  phiHit()
+                std::vector<float>  eHit()
+                std::vector<float>  tHit()
+                std::vector<float>  layerHit()
+                std::vector<float>  idHit()
+
+DataMembers:   PHcalValidInfoLayer

@@ -1,0 +1,18 @@
+Class:         reco::GsfElectronCore
+
+Header:        DataFormats/EgammaCandidates/interface/GsfElectronCore.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:28 2014	mkvomit.py
+
+AccessMethods: reco::GsfElectronCore
+            reco::GsfElectronCore*  clone()
+           const reco::GsfTrackRef  gsfTrack()
+       const reco::SuperClusterRef  superCluster()
+                    reco::TrackRef  ctfTrack()
+                             float  ctfGsfOverlap()
+                              bool  ecalDrivenSeed()
+                              bool  trackerDrivenSeed()
+       const reco::SuperClusterRef  pflowSuperCluster()
+
+DataMembers:   reco::GsfElectronCore

@@ -1,0 +1,15 @@
+Class:         edm::EventTime
+
+Header:        DataFormats/HLTReco/interface/ModuleTiming.h
+
+Version:       CMSSW_5_3_17
+Created:       Fri Apr 25 12:03:26 2014	mkvomit.py
+
+AccessMethods: edm::EventTime
+                      unsigned int  size()
+             const edm::ModuleTime  moduleTime(unsigned int i)
+                            double  tot_time()
+                       std::string  name(unsigned int i)
+                            double  time(unsigned int i)
+
+DataMembers:   edm::EventTime
