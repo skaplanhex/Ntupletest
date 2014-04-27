@@ -309,6 +309,9 @@ addJetCollection(
     #genJetCollection = cms.InputTag("ak10GenJetsNoNu")
 #)
 
+#Hopefully this actually adds the tag infos...
+process.patJetsPFlow.addTagInfos = cms.bool(True)
+
 ## Produce a collection of good primary vertices
 from PhysicsTools.SelectorUtils.pvSelector_cfi import pvSelector
 process.goodOfflinePrimaryVertices = cms.EDFilter("PrimaryVertexObjectFilter",

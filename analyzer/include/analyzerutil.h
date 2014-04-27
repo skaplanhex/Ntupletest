@@ -2,7 +2,7 @@
 #define ANALYZERUTIL_H
 //-----------------------------------------------------------------------------
 // -- Utilities
-// Created: Fri Apr 25 15:09:13 2014 by mkanalyzer.py
+// Created: Sun Apr 27 10:17:50 2014 by mkanalyzer.py
 //-----------------------------------------------------------------------------
 #include <stdio.h>
 #include <stdlib.h>
