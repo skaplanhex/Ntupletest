@@ -95,5 +95,3 @@
 <use   name="rootmath"/>
 <use   name="rootrflx"/>
 <use name="Ntuples/MyNtuple"/>
-<library file="userplugin_patJetHelper.cc" name="patJetHelper">
-</library>

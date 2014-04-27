@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 #  File:        analyzerlib.py
 #  Description: Analyzer for ntuples created by TheNtupleMaker
-#  Created:     Sun Apr 27 10:17:50 2014 by mkanalyzer.py
+#  Created:     Sun Apr 27 17:23:45 2014 by mkanalyzer.py
 #  Author:      Shakepeare's ghost
 # -----------------------------------------------------------------------------
 import os, sys, re
@@ -231,15 +231,19 @@ def setStyle():
 # -----------------------------------------------------------------------------
 Jet1_combinedSecondaryVertexBJetTags	= vector("float")(200)
 Jet1_impactParameter	= vector("int")(200)
+Jet1_pt	= vector("double")(200)
 Jet_combinedSecondaryVertexBJetTags	= vector("float")(200)
 Jet_impactParameter	= vector("int")(200)
+Jet_pt	= vector("double")(200)
 nJet	= Long()
 nJet1	= Long()
 
 stream.select("patJet_selectedPatJetsPFlow.combinedSecondaryVertexBJetTags", Jet1_combinedSecondaryVertexBJetTags)
 stream.select("patJet_selectedPatJetsPFlow.impactParameter", Jet1_impactParameter)
+stream.select("patJet_selectedPatJetsPFlow.pt", Jet1_pt)
 stream.select("patJet_selectedPatJetsAK5PF.combinedSecondaryVertexBJetTags", Jet_combinedSecondaryVertexBJetTags)
 stream.select("patJet_selectedPatJetsAK5PF.impactParameter", Jet_impactParameter)
+stream.select("patJet_selectedPatJetsAK5PF.pt", Jet_pt)
 stream.select("npatJet_selectedPatJetsAK5PF", nJet)
 stream.select("npatJet_selectedPatJetsPFlow", nJet1)
 

@@ -1,0 +1,4 @@
+<lcgdict>
+ <class name="HelperFor<pat::Jet>"/>
+ <class name="pat::JetHelper"/>
+</lcgdict>

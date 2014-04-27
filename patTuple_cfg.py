@@ -311,6 +311,7 @@ addJetCollection(
 
 #This line adds the tagInfos for the jet collection with label = 'selectedPatJetsPFlow'.
 #A similar line is needed for each jet collection!
+process.patJetsAK5PF.addTagInfos = cms.bool(True)
 process.patJetsPFlow.addTagInfos = cms.bool(True)
 
 ## Produce a collection of good primary vertices

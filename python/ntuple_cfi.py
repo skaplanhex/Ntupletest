@@ -25,7 +25,9 @@ cms.EDAnalyzer("TheNtupleMaker",
     'patJet                          selectedPatJetsAK5PF            200',
     #---------------------------------------------------------------------
     'float  bDiscriminator("combinedSecondaryVertexBJetTags")',
-    'bool  hasTagInfo("impactParameter")'
+    'double pt()',
+    'bool  hasTagInfo("impactParameter")',
+    'double pt100()'
     ),
                Jet1 =
                cms.untracked.
@@ -33,6 +35,8 @@ cms.EDAnalyzer("TheNtupleMaker",
     'patJet                          selectedPatJetsPFlow            200',
     #---------------------------------------------------------------------
     'float  bDiscriminator("combinedSecondaryVertexBJetTags")',
-    'bool  hasTagInfo("impactParameter")'
+    'bool  hasTagInfo("impactParameter")',
+    'double pt()',
+    'double pt100()'
     )
                )
