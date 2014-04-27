@@ -309,7 +309,8 @@ addJetCollection(
     #genJetCollection = cms.InputTag("ak10GenJetsNoNu")
 #)
 
-#Hopefully this actually adds the tag infos...
+#This line adds the tagInfos for the jet collection with label = 'selectedPatJetsPFlow'.
+#A similar line is needed for each jet collection!
 process.patJetsPFlow.addTagInfos = cms.bool(True)
 
 ## Produce a collection of good primary vertices
